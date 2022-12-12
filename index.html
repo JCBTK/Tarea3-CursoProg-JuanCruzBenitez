@@ -5,38 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;600&display=swap" rel="stylesheet">
+
 </head>
 
-<body style="background-color: rgba(2,2,2,.7);">
+<body>
     
     <h1>Juan Cruz Benitez</h1>
-    
-    <img src="/foto.jpg" alt="Foto" style="width:800px;">
-    
-    <h3>Edad:26</h3>
-    
-    <h3>Domicilio: Guatemala 521</h3>
-    
-    <h4>Que series me gustan?</h4>
-        <ol>
-            <li>The Alienist.</li>
-            <li>Dark.</li>
-            <li>Bad Blood.</li>
-            <li>Alphas.</li>
-        </ol>
-    <h4>Que pelis son las que me gustaron?</h4>
-        <ul>
-            <li>Interestelar.</li>
-            <li>Valerian y la ciudad de los mil planetas.</li>
-            <li>Rush.</li>
-        </ul>
-    
-    <h3>Perfil</h3>
-    <p>Nacido en Santa Fe capital, hice deportes casi toda mi vida, pero lo que de verdad me gusta es el diseño, la mecánica y aprender cosas nuevas, cosas que me llamen la atención, si tuviera la oportunidad de viajar en el tiempo seria de los que van al futuro, eso creo que dice mucho. </p>
-    <p>Me gusta el diseño y la invención en general, el arte y la ciencia de la mano, tengo como mis más grandes ídolos a otros dos Santafesinos que hacen de ese pensamiento una forma de vida.</p>
-    <p>No soy fanático de ningún equipo, prefiero la mecánica en general, ni siquiera en la parte de competición, sino en su desarrollo, en el rediseño de la misma.</p>
+
+    <div class="container">  
+        <img src="/foto.png" alt="Foto"  class="imagen">
+        <div class="series">
+            <h4>Mis series favoritas</h4>
+                <ol class="lista">
+                    <li>The Alienist.</li>
+                    <li>Dark.</li>
+                    <li>Bad Blood.</li>
+                    <li>Alphas.</li>
+                </ol>
+        </div>
+        <div class="pelis">        
+            <h4>Mis peliculas favoritas</h4>
+                <ul class="lista">
+                    <li>Interestelar.</li>
+                    <li>Valerian y la ciudad de los mil planetas.</li>
+                    <li>Rush.</li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="perfil">
+        <h3 id="perfil">Perfil</h3>
+            <p>Nacido en Santa Fe capital, hice deportes casi toda mi vida, pero lo que de verdad me gusta es el diseño, la mecánica y aprender cosas nuevas, cosas que me llamen la atención, si tuviera la oportunidad de viajar en el tiempo seria de los que van al futuro, eso creo que dice mucho. </p>
+            <p>Me gusta el diseño y la invención en general, el arte y la ciencia de la mano, tengo como mis más grandes ídolos a otros dos Santafesinos que hacen de ese pensamiento una forma de vida.</p>
+            <p>No soy fanático de ningún equipo, prefiero la mecánica en general, ni siquiera en la parte de competición, sino en su desarrollo, en el rediseño de la misma.</p>
+    </div>  
+
+    <div class="datos">
+        <h3 class="edad">Edad:26</h3>
+        <h3 class="domicilio">Domicilio: Guatemala 521</h3>
+    </div>
 
     
+   
 </body>
 
 </html>
